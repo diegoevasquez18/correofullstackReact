@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/Ecofriendly.css'
 
 const Ecofriendly = (props) =>{
     return(

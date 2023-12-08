@@ -1,4 +1,6 @@
 import React from "react";
+import '../styles/components/pages/Nosotros.css'
+import { NavLink } from "react-router-dom";
 
 const Nosotros = (props) =>{
     return(
@@ -23,7 +25,7 @@ const Nosotros = (props) =>{
         <section id="contact">
             <h3>Únete a Nosotros</h3>
             <p>Correo Full Stack te invita a formar parte de nuestra familia. Ya sea que necesites enviar paquetes de forma ocasional o estés buscando una solución logística a largo plazo, estamos aquí para ayudarte. Confía en nosotros para entregar tus paquetes de manera segura y a tiempo.</p>
-            <p>Gracias por considerarnos como tu socio de confianza en la entrega de paquetes. Estamos ansiosos por servirte y ayudarte en tus necesidades de envío. <a href="/pages/contactanos.html">¡Contáctanos hoy mismo!</a></p>
+            <p>Gracias por considerarnos como tu socio de confianza en la entrega de paquetes. Estamos ansiosos por servirte y ayudarte en tus necesidades de envío. <NavLink to='/Contactanos'>¡Contáctanos hoy mismo!</NavLink></p>
         </section>
      </div>
     </main>

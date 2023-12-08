@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/Index.css'
 
 const Index = (props) =>{
     return(
